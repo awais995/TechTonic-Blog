@@ -51,7 +51,7 @@ export const blogs: Blog[] = [
         id: 4,
         title: "The Future of AI in Web Development: Opportunities and Challenges",
         description: "AI’s impact on automating and enhancing web development.",
-        image: "/images/blog2.jpg",
+        image: "/Post-4.jpeg",
         content: ` AI is revolutionizing web development by automating coding tasks and improving user experiences. Tools like GitHub Copilot assist developers by generating code snippets, speeding up workflows, and reducing errors.
 
                     AI also enables personalized content and chatbots, enhancing user engagement. However, challenges such as data privacy and integration complexity must be addressed. Looking ahead, AI’s potential to create adaptive websites and automate debugging will reshape web development, enabling developers to focus on creative problem-solving.
@@ -64,7 +64,7 @@ export const blogs: Blog[] = [
         id: 5,
         title: "AI-Powered Tools to Boost Productivity in 2025",
         description: "The best AI tools for task management, content creation, and analytics.",
-        image: "/images/blog2.jpg",
+        image: "/Post-5.jpeg",
         content: ` AI-powered tools are indispensable for boosting productivity. Task management platforms like Trello use AI to prioritize workflows. Content creation tools such as Jasper generate high-quality text, while analytics tools like Tableau offer actionable insights.
 
                     Customer support benefits from AI chatbots, providing 24/7 assistance. AI also streamlines data analysis, saving time and resources. By integrating these tools, businesses and individuals can achieve more with less effort, driving efficiency in various domains.
@@ -75,7 +75,7 @@ export const blogs: Blog[] = [
         id: 6,
         title: "Understanding Neural Networks: The Basics Simplified",
         description: "An introduction to neural networks and their applications.",
-        image: "/images/blog2.jpg",
+        image: "/Post-6.jpeg",
         content: `Neural networks are the backbone of modern AI. Inspired by the human brain, they consist of layers of interconnected nodes (neurons) that process data. Neural networks excel at recognizing patterns, making them ideal for applications like image recognition and natural language processing.
 
                 Training a neural network involves feeding it large datasets and adjusting weights to minimize errors. This iterative process enables the network to make accurate predictions. Applications range from self-driving cars to voice assistants, showcasing the versatility of neural networks in solving complex problems.
