@@ -3,13 +3,21 @@ import Image from "next/image";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-purple-50 py-12">
-      <div className="max-w-4xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden">
+    <div
+      className="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
+      style={{
+        backgroundImage: "url('/contact-bg.webp')", 
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="w-full max-w-4xl mx-auto bg-white bg-opacity-95 shadow-2xl rounded-lg overflow-hidden transform transition-all duration-300 hover:shadow-3xl">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Image Section */}
           <div className="relative h-64 lg:h-auto">
             <Image
-              src="/images/contact.jpg" // Replace with your image path
+              src="/contact.webp" 
               alt="Contact Us"
               layout="fill"
               objectFit="cover"
@@ -18,15 +26,17 @@ export default function ContactPage() {
           </div>
 
           {/* Form Section */}
-          <div className="p-8 lg:p-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Contact Us</h2>
-            <p className="text-gray-600 mb-8">
+          <div className="p-8 sm:p-10 lg:p-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+              Contact Us
+            </h2>
+            <p className="text-gray-600 mb-8 text-sm sm:text-base">
               Have questions or need assistance? We’re here to help! Fill out the form below, and we’ll get back to you shortly.
             </p>
             <form className="space-y-6">
               {/* Name Field */}
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                   Name
                 </label>
                 <input
@@ -34,14 +44,14 @@ export default function ContactPage() {
                   id="name"
                   name="name"
                   placeholder="Enter your name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder-gray-400"
                   required
                 />
               </div>
 
               {/* Email Field */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                   Email
                 </label>
                 <input
@@ -49,14 +59,14 @@ export default function ContactPage() {
                   id="email"
                   name="email"
                   placeholder="Enter your email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder-gray-400"
                   required
                 />
               </div>
 
               {/* Message Field */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message
                 </label>
                 <textarea
@@ -64,7 +74,7 @@ export default function ContactPage() {
                   name="message"
                   rows={4}
                   placeholder="Enter your message"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder-gray-400"
                   required
                 ></textarea>
               </div>
@@ -73,7 +83,7 @@ export default function ContactPage() {
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                  className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-all transform hover:scale-105 active:scale-95"
                 >
                   Send Message
                 </button>

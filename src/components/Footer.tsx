@@ -79,17 +79,17 @@ const Footer = () => {
             <h2 className="mb-6 text-xl font-semibold">Recent Posts</h2>
             <ul className="text-sm text-gray-400 space-y-4">
               <li className="flex gap-4">
-                <Image src="/images/blog1.jpg" alt="Post Image" width={64} height={64} className="rounded-lg" />
+                <Image src="/Post-2.webp" alt="Post Image" width={64} height={64} className="rounded-lg" />
                 <div>
-                  <h3 className="text-white">Top 10 Tech Trends in 2024</h3>
-                  <p className="text-xs text-gray-400">20 Feb 2024</p>
+                  <h3 className="text-white">Top 10 Tech Trends in 2025</h3>
+                  <p className="text-xs text-gray-400">02 Jan 2025</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <Image src="/images/blog2.jpg" alt="Post Image" width={64} height={64} className="rounded-lg" />
+                <Image src="/Post 1.webp" alt="Post Image" width={64} height={64} className="rounded-lg" />
                 <div>
                   <h3 className="text-white">How to Stay Productive</h3>
-                  <p className="text-xs text-gray-400">15 Feb 2024</p>
+                  <p className="text-xs text-gray-400">2 Jan 2025</p>
                 </div>
               </li>
             </ul>

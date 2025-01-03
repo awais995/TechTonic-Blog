@@ -87,7 +87,7 @@ export const blogs: Blog[] = [
         id: 7,
         title: "How AI Personalization is Enhancing Customer Experience",
         description: "AI-driven personalization for better user engagement and satisfaction.",
-        image: "/images/blog2.jpg",
+        image: "/Post-7.webp",
         content: `Personalization is key to exceptional customer experiences, and AI is leading the way. By analyzing user data, AI delivers tailored recommendations, from products to entertainment. This enhances engagement and fosters brand loyalty.
 
                     E-commerce platforms use AI to customize shopping experiences, while streaming services curate content based on viewing habits. Personalized marketing campaigns driven by AI increase conversion rates. As AI technology advances, its ability to deliver hyper-personalized experiences will continue to set businesses apart.
@@ -97,9 +97,22 @@ export const blogs: Blog[] = [
 
     {
         id: 8,
+        title: "Ethical AI: Balancing Innovation and Responsibility",
+        description: "The importance of ethical considerations in AI development.",
+        image: "/Post-8.webp",
+        content: `As AI becomes more integrated into society, ethical considerations are paramount. Issues like bias in algorithms, privacy concerns, and job displacement require careful attention. Responsible AI development involves creating transparent systems that prioritize fairness and accountability.
+
+                Frameworks for ethical AI include ensuring diversity in training datasets and establishing clear guidelines for data usage. By addressing these challenges, we can harness AI’s potential while minimizing its risks, creating technology that benefits everyone.
+        
+        `,
+        
+    },
+
+    {
+        id: 9,
         title: "Top Open-Source AI Tools and Libraries for Developers",
         description: "A guide to the best open-source AI tools for building innovative solutions.",
-        image: "/images/blog2.jpg",
+        image: "/Post-9.webp",
         content: `Open-source AI tools empower developers to build cutting-edge applications. TensorFlow and PyTorch are popular frameworks for machine learning and deep learning. Hugging Face offers pre-trained models for natural language processing, while Scikit-learn provides tools for data analysis and visualization.
 
                     These tools are free and supported by active communities, making them accessible to developers of all skill levels. By leveraging open-source resources, developers can innovate faster and contribute to the growing AI ecosystem.
@@ -108,23 +121,13 @@ export const blogs: Blog[] = [
 
     },
 
-    {
-        id: 9,
-        title: "Ethical AI: Balancing Innovation and Responsibility",
-        description: "The importance of ethical considerations in AI development.",
-        image: "/images/blog2.jpg",
-        content: `As AI becomes more integrated into society, ethical considerations are paramount. Issues like bias in algorithms, privacy concerns, and job displacement require careful attention. Responsible AI development involves creating transparent systems that prioritize fairness and accountability.
-
-                Frameworks for ethical AI include ensuring diversity in training datasets and establishing clear guidelines for data usage. By addressing these challenges, we can harness AI’s potential while minimizing its risks, creating technology that benefits everyone.
-        
-        `,
-    },
+    
 
     {
         id: 10,
         title: "How Small Businesses Can Leverage AI for Growth",
         description: "Practical AI solutions for small businesses to stay competitive.",
-        image: "/images/blog2.jpg",
+        image: "/Post-10.webp",
         content: ` AI is not just for large corporations; small businesses can also benefit from its capabilities. Tools like CRM systems powered by AI streamline customer interactions, while inventory management solutions optimize stock levels.
 
                     AI-driven marketing platforms enable targeted campaigns, increasing ROI. Chatbots provide affordable customer support, and analytics tools help uncover valuable insights. By adopting these technologies, small businesses can enhance efficiency, reduce costs, and compete in a tech-driven marketplace.
